@@ -9,9 +9,10 @@
        min-height: 12px;
      }
     </style>
+    
   </head>
-
   <body>
+    
     <main id="main">My ID is "main"!</main>
 
     <br />
@@ -37,5 +38,13 @@
         </div>
       </div>
     </div>
+  <script>
+     const input = document.querySelector('input');
+ 
+      input.addEventListener('keydown', function(e) {
+        console.log(e.key);
+      });
+    </script>
   </body>
+
 </html>
